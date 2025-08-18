@@ -167,7 +167,11 @@ footer {
 
 </style>
 <body>
-
+<script>
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("active");
+    }
+  </script>
     <nav>
     <span class="menu-toggle" onclick="toggleMenu()">☰</span>
     <ul id="menu">
@@ -176,11 +180,7 @@ footer {
       <li><a href="#">Inversionistas y Apoyo</a></li>
     </ul>
   </nav>
-     <script>
-    function toggleMenu() {
-      document.getElementById("menu").classList.toggle("active");
-    }
-  </script>
+     
     <h1>Apoyo Financiero</h1>
     <p>Kuantu agradece cualquier donacion, apoyo o inversion de cualquier tipo</p>
     <p>Si le interesa conocer más sobre nuestro proyecto no dude en escribirnos por correo para agendar una llamada</p>
@@ -194,3 +194,4 @@ footer {
 </body>
 
 </html>
+
